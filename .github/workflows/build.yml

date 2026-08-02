@@ -18,7 +18,6 @@ jobs:
           command: android debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Upload APK artifact
         uses: actions/upload-artifact@v3
         with:
