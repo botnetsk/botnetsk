@@ -2,12 +2,12 @@
 title = 问心无愧
 package.name = wenxinwukui
 package.domain = com.wenxin
-source.dir = src
+source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,txt
 source.exclude_exts = spec
 main.filename = main.py
 version = 1.0
-requirements = python3,kivy,pyjnius,openssl,urllib3,pycryptodome
+requirements = python3,kivy,pyjnius,openssl,urllib3,pycryptodome,requests
 android.permissions = INTERNET,ACCESS_NETWORK_STATE,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 android.api = 33
 android.ndk = 25b
